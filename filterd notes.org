@@ -1,4 +1,6 @@
-#-tittle: some guys security notes
+#+tittle: some guys security notes
+#+OPTIONS: toc:nil
+#+STARTUP: inlineimages
 * Intro to Security
 ** CIA: Confidentiality, Integrity, and Availability
 *** Confidentiality: Prevents disclosure of info to outside party
@@ -64,13 +66,22 @@
 **** Multipartite : hybrid of boot sector and program
 *** worms
 **** malicious code that replicates, standalone program, may spread automatically
+*** Keyloggers
+**** might be between keyboard and computer
+**** might grab information that’s in your clipboard
+**** screenshot info and or send all info to bad guys
 *** trojans
 **** appear to be beneficial but contain malicious code
 **** keygens
 **** RAT trojans
+***** remote access trojan
 *** ransomware
 **** encrypts files and data and demands payment to unlock
 **** often propagates as a trojan or worm
+*** Rootkits
+**** modifies the kernel of the operating system.
+**** mostly invisible because its next to the kernel
+**** examples are  Zeus or Zbot malware
 *** spyware
 **** usually hidden inside third party applications
 **** logs various user activities and sends it to attacker
@@ -1448,9 +1459,13 @@
 **** Spearphishing
 **** Whaling
 *** Hoax
+**** security threats that seem like they could exist but in fact are not real at all
 *** Shoulder Surfing
+**** looking over the shoulder or look at anothers phone
 *** Eavesdropping
+**** hearing people talk about job info
 *** Dumpster Diving
+**** looking in the dumpster
 *** Baiting
 *** Piggybacking/tailgating
 **** employ mantraps
@@ -1486,13 +1501,3 @@
 **** GPS systems vulnerabilities
 **** Airgapped Control Systems
 **** Drones
-* TODO shopping list [1/3] [33%]
-   + [ ] eggs
-   + [ ] milk
-   + [X] oatmeal
-*  
-* TODO [#A] workout for 30min 
-  SCHEDULED: <2021-03-11 Thu>
-* TODO [#B] work in moms room 
-  SCHEDULED: <2021-03-11 Thu 11:00>
-
