@@ -51,6 +51,7 @@
 **** hacktivist
 **** organized crime
 **** APT(advanced persistent threat aka nation state attacker)
+** what a log looks like for a replay attack
 * ch. 2 Computer systems security part1
 ** types of malware
 *** viruses
@@ -1501,3 +1502,85 @@
 **** GPS systems vulnerabilities
 **** Airgapped Control Systems
 **** Drones
+* order of volatility
+** life expectancy of various types of captured data during forensic analysis
+* process virtual machine
+** what allows for just one virtualized application
+* group policy security manager
+** used to control internet explorer security
+* activeX controls
+** the one thing you always disable in internet explorer's browser settings
+* don't run specified windows applications
+** what win policy is used to block access to applications?
+* MAC flood
+** attack sends a flood of packets to a switch to change its state
+** attempting to overload the switches memory and makes switch in to hub
+* xmas tree attack
+** attack causes router to reboot
+* TCP/IP hijacking
+** attack takes over TCP session between two computers
+* man in the browser
+** use of a trojan that infects web pages
+* domain name kiting
+** attack regisers a domain name for only five days then registers it again during the grace period to avoid paying
+* Content
+** is type of filter for software at the app layer to control internet activity and browsing
+* vampire
+** type of wiretap is used on coax cable
+* extensible authentication protocol [EAP]
+** used over 802.1x define message formats
+* Discretionary
+** type of access control policy is determined by the object or data owner
+* mandatory access
+** access control policy determined by computers not by user or owner
+* data labeling
+** used by mandatory access control to determine access
+* access control list
+** term given to a list permissions for an object
+* UAC [user account control]
+** process that keeps all users except the administrator in standard user mode
+* Mean time between failures
+** performing risk analsis what value defines average num of failures per million hours
+* perfmon.exe
+** command used to start windows performance monitor
+* version 3
+** is most secure version of SNMP
+* AES
+** created to replace DES and 3DES
+* RC[Rivest cipher]
+** used in ssl ,RDP and WEP
+* one-time pad
+** cipher also known as Vernam cipher
+* PGP [pretty good privacy]
+** used to encrypt emails
+* Asymmetric
+** type of key pairs does PKI system use
+* Succession planning
+** type of redundancy needed to ensure one employee loss does not hurt the organization
+* Towers of Hanoi
+** backup scheme uses first tape ever second day
+* Due diligence
+** ensuring that IT infrastructure risks are known and managed
+* Blanker purchase agreement
+** request products and services over and over again
+* the credentials are passed in the clear
+** would be a disadvantage to using PAP during authentication
+* PHI[protected health information]
+** data label be most associated with patient records from a medical doctor
+* SIEM[Security information and event management]
+** create a report each day number of invalid login attempts on all servers
+* hash, block cipher, key stretching
++ MD5=hash
++ CTR=block cipher
++ RIPEMD=hash
++ ECB=block cipher
++ bcrypt=key stretching
++ SHA=hash
+* Web server
+** certificate labeled "EV"
+* DNSSEC
+** the best way to validate results of IP address lookup
+* The version number of a vulnerable web server
+** admin is running a non-cred vuln scan what most likely be in result
+* DLP[data loss prevention]
+** prevent users from emailing customer credit card info between sites
