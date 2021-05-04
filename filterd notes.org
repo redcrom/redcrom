@@ -386,7 +386,7 @@
 ****** provisioning and deprovisioning
 ***** normalization 
 ****** all the baseline security code protocol 
-*** Core SDLC and DevOps Principles
+*** Core SDLC(Systems development life cycle) and DevOps Principles
 **** Preserving CIA of software development
 **** Secure code review
 ***** In depth code review for security bugs
@@ -426,7 +426,7 @@
 ***** Integer overflows (integer wrapping)
 ***** Memory leaks : Degrades system performance
 ***** Nullptr dereference
-***** ASLR and DEP is common defense against buffer overflows
+***** ASLR{Address space layout randomization} and DEP{Data Execution Prevention} is common defense against buffer overflows
 **** Arbitrary and Remote Code Execution
 ***** Shellcode injections
 ***** Strong input validation, fuzz testing
@@ -441,13 +441,13 @@
 * Chapter 6 : Network Design Elements
 ** Network Design
 *** OSI Model 
-**** 1 layer: Physical	=bits= Physical and Electrical medium
+**** 1 layer: Physical =bits= Physical and Electrical medium
 **** 2 layer: Data link =Frames= Establishes, maintains and decides how data transfer is accomplished over the physical layer
 **** 3 layer: Network =Packets=	Routing and Switching
 **** 4 layer: Transport =Segments(TCP)= Manages/ensures error free transmission between hosts through logical addressing/port assignment	
-**** 5 layer: Session  Establishment, termination and synchronization of sessions within the OS over the network and between hosts messages
-**** 6 layer: Presentation	Sender to receiver data translation, Code conversion, data compression and file
-**** 7 layer: Application	FTP, HTTP and SMTP end user protocols	Messages 
+**** 5 layer: Session = Establishment, termination and synchronization of sessions within the OS over the network and between hosts messages
+**** 6 layer: Presentation = Sender to receiver data translation, Code conversion, data compression and file
+**** 7 layer: Application = FTP, HTTP and SMTP end user protocols	Messages
 *** Network Devices
 **** Switch 
 ***** Central connection device, replaces hubs and bridges
@@ -1563,7 +1563,7 @@
 ** ensuring that IT infrastructure risks are known and managed
 * Blanker purchase agreement
 ** request products and services over and over again
-* the credentials are passed in the clear
+* the credentials are passed in the
 ** would be a disadvantage to using PAP during authentication
 * PHI[protected health information]
 ** data label be most associated with patient records from a medical doctor
