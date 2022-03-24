@@ -41,6 +41,7 @@ terminus-font
 tty-clock-git
 ttf-hack
 ttf-joypixels
+telegram-desktop
 trayer
 vim
 volumeicon
