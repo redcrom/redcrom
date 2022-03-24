@@ -1,0 +1,134 @@
+# AUTOSTART #
+#--------------------------------------------#
+#
+#Wallpaper
+exec nitrogen --restore &
+
+#System
+exec /usr/bin/rpws init 9 -k
+exec picom --experimental-backend
+exec numlockx
+exec emacs --daemon
+#Mouse
+exec ratpoison -c "banish"
+#exec /usr/share/ratpoison/sloppy
+
+#Bar
+#exec "$HOME/bar.sh" | dzen2 -fn "Mono:size=16" -fg "#076678"
+#exec echo "jakes" | dzen2 -p
+#exec dzconky
+
+# SETTINGS #
+#--------------------------------#
+#
+#Dialog box
+rudeness 13
+warp on
+set winname title
+set wingravity center
+set transgravity center
+set border 0
+#set barborder 3
+#set barpadding 1 1
+set padding 0 0 0 0
+set bargravity center
+set font "Source Code Pro:size=16"
+set bgcolor #000000
+set fgcolor #ff3c00
+set fwcolor #ff3c00
+set bwcolor #000000
+
+# ESCAPE KEY (replace key chord C-t with alt) #
+#---------------------------------------------#
+#
+#Escape key
+escape Super_L
+#---------------------------------------------#
+
+# KEYBINDS (after escape keypress) #
+#----------------------------------#
+# Applications                     #
+bind s-b exec ghostery
+bind s-f exec brave
+bind s-r exec rofi -show run
+bind s-d exec dmenu_run
+bind s-Return exec alacritty -e fish
+#-----------------------------------------------#
+
+#---------------------#
+# WINDOW MANIPULATION #
+#---------------------#
+
+# Window splits/resize
+bind S vsplit
+bind r hsplit
+bind R resize
+
+# Focus
+bind <UP> focusup
+bind <DOWN> focusdown
+bind <LEFT> focusleft
+bind <RIGHT> focusright
+
+#next
+bind s-UP next
+bind s-DOWN next
+
+# Swap windows
+bind s-C-Right exchangeright
+bind s-C-Left exchangeleft
+bind s-C-Up exchangeup
+bind s-C-Down exchangedown
+bind s-C-S-Right rpwsmn
+bind s-C-S-Left rpwsmp
+
+# Send window to workspace 1-9
+bind s-1 rpwsm1
+bind s-2 apwsm2
+bind s-3 rpwsm3
+bind s-4 rpwsm4
+bind s-5 rpwsm5
+bind s-6 rpwsm6
+bind s-7 rpwsm7
+bind s-8 rpwsm8
+bind s-9 rpwsm9
+bind s-Q kill
+
+# System info
+bind s-a exec /usr/share/ratpoison/ratdate.sh
+bind s-F1 exec shutdown +0
+bind s-w exec /usr/share/ratpoison/rpshowall.sh
+# Multimedia
+bind XF86MonBrightnessUp exec lux -a 10%
+bind XF86MonBrightnessDown exec lux -s 10%
+bind XF86AudioRaiseVolume exec volchange.sh volup
+bind XF86AudioLowerVolume exec volchange.sh voldown
+bind XF86AudioMute exec volchange.sh volmute
+bind XF86AudioPlay exec playerctl play-pause
+bind XF86AudioNext exec playerctl next
+bind XF86AudioPrev exec playerctl previous
+bind C-S exec playerctl stop
+
+bind s-T tmpwm dwm
+bind M-C-r restart
+bind M-C quit
+bind M-W select
+#----------------------------------#
+
+
+
+# RPWS (ratpoison workspaces) #
+#-----------------------------#
+#                             #
+bind 1 exec rpws 1
+bind 2 exec rpws 2
+bind 3 exec rpws 3
+bind 4 exec rpws 4
+bind 5 exec rpws 5
+bind 6 exec rpws 6
+bind 7 exec rpws 7
+bind 8 exec rpws 8
+bind 9 exec rpws 9
+bind s-Right exec rpws next
+bind s-Left exec rpws prev
+#-----------------------------#
