@@ -92,7 +92,7 @@ bind s-6 rpwsm6
 bind s-7 rpwsm7
 bind s-8 rpwsm8
 bind s-9 rpwsm9
-bind s-Q kill
+bind s-q kill
 
 # System info
 bind s-a exec /usr/share/ratpoison/ratdate.sh
