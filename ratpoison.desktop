@@ -1,0 +1,7 @@
+[Desktop Entry] 
+Encoding=UTF-8
+Name=Ratpoison
+Comment=Dynamic Window Manager
+Exec=ratpoison
+Icon=ratpoison
+Type=XSession
