@@ -42,17 +42,13 @@
   (auto-package-update-maybe)
   (auto-package-update-at-time "09:00"))
 
-
-
 (setq inhibit-startup-message t)
 
 (scroll-bar-mode -1)        ; Disable visible scrollbar
 (tool-bar-mode -1)          ; Disable the toolbar
 (tooltip-mode -1)           ; Disable tooltips
 (set-fringe-mode 10)        ; Give some breathing room
-
 (menu-bar-mode -1)            ; Disable the menu bar
-
 ;; Set up the visible bell
 (setq visible-bell t)
 
@@ -66,9 +62,6 @@
                 treemacs-mode-hook
                 eshell-mode-hook))
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
-
-;; Set the variable pitch face
-
 
 ;; Make ESC quit prompts
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
@@ -122,9 +115,9 @@
 (use-package all-the-icons)
 
 
-;;(use-package doom-modeline
-;;  :init (doom-modeline-mode 1)
-;;  :custom ((doom-modeline-height 15)))  
+;(use-package doom-modeline
+ ; :init (doom-modeline-mode 1)
+ ; :custom ((doom-modeline-height 15)))  
 
 (use-package org-bullets
 :ensure t
